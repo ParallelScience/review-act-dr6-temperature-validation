@@ -1,0 +1,9 @@
+{
+  "soundness": 5,
+  "novelty": 4,
+  "significance": 5,
+  "clarity": 4,
+  "evidence_quality": 5,
+  "overall": 5,
+  "justification": "The paper offers a conservative, well-scoped validation of ACT DR6 temperature maps using split-cross pseudo-C\u2113 tests with explicit beam handling, and the audits confirm basic combinatorial counts and beam-to-power reasoning while reproducing several headline numbers. However, key statistics (fractional differences, within-channel scatter) and the uncertainty model are not formally defined, mode-coupling/transfer biases are not quantified, and a central axis (source-free vs standard) lacks executed quantitative results; the Numerical Results Audit also flags internal inconsistencies (Table II range, missing RMS, one peak-significance mismatch). Clarity and reproducibility are hindered by under-specified masks, binning, and beam-harmonization implementation details, limiting confidence in the quoted percent-level residuals. Overall, this is a useful audit-style note for public-data users but requires substantial methodological specification and minor corrections to reach strong-paper rigor."
+}
